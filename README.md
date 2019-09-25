@@ -10,6 +10,8 @@ In order to use this code you have to decode your blinds' controllers and serial
 **H**: Long low pulse (Header)
 **N**: Long wait for new command
 
+To build the webpage on the ESP32 you have to use a tool to insert data into the ESP32 memory which you can find here https://github.com/me-no-dev/arduino-esp32fs-plugin .
+
 The project also have RTC & Temperature/Humidity sensors. This code is not necessary to control the blinds but it's useful in the dashboard. All the pinouts for the sensors and actuators and defined in the headers of the source code.
 
 BTW: Notice that the code is commented in spanish as I don't have time to translate it, but it shouldn't be difficult to understand it :).
