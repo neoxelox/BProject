@@ -1,8 +1,9 @@
 # BProject
 Server &amp; Frontend to manage your blinds with an ESP32
+
 **NOTE!** I'm refactoring all of that and more to a new project [Shutters](https://github.com/Neoxelox/Shutters) in Golang!
 
-BProject is a simple server in and a mini frontend for ESP32 to manage your blinds via radiofrecuency.
+BProject is a simple web server and a mini frontend for ESP32 to manage your blinds via radiofrecuency.
 The server is built in C++ with libraries from Arduino. The frontend is built in vanilla HTML/CSS/JS with Websockets but also uses a bit of http methods to have a mini login system.
 In order to use this code you have to decode your blinds' controllers and serialize the pulse code with this *schema*:
 **1**: Short high pulse
